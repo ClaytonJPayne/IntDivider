@@ -6,11 +6,11 @@ module ClockGen
         parameter PERIOD = 10;
     )
 (
-    output CLK
+    output Clk
 );
     localparam HALF_PERIOD = PERIOD / 2;
     logic ClkReg;
-    assign CLK = ClkReg;
+    assign Clk = ClkReg;
     initial begin
         ClkReg = 0;
     end
