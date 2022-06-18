@@ -1,3 +1,5 @@
+// Original RTL for the repo; current version is IntDivider.sv
+
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer: Clayton Payne
